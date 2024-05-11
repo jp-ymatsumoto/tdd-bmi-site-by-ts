@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>BMI</h1>
+      <form id="form">
+        <label for="height">身長 (cm):</label>
+        <input type="text" id="height" name="height" required />
+        <label for="weight">体重 (kg):</label>
+        <input type="text" id="weight" name="weight" required />
+        <button type="submit">計算</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <script type="module" src="dist/main.js" defer></script>
+  </body>
+</html>
