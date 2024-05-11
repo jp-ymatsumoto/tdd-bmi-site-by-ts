@@ -49,13 +49,33 @@ npm run test
 
 7. すべてのテスト対象が通るまで 2~6 を繰り返す
 
-8. src/main.ts にシステム要件の処理を実装する
+## ウェブサイトの作成手順
 
-9. 公開用にビルドする
+1. ターミナルで開発用サーバを起動する
+
+```bash
+npm run start
+```
+
+2. ターミナルで TypeScript のファイルの変更を監視する
+
+```bash
+npm run watch
+```
+
+3. src/main.ts にシステム要件の処理を実装する
+
+index.html、css/style.css、src/main.ts を修正してください。
+
+4. 公開用にビルドする
 
 ```bash
 npm run build
 ```
+
+5. ウェブサーバで公開する
+
+ウェブサーバにアップロードするファイルは、index.html、css ディレクトリ、dist ディレクトリなどです。
 
 ## 環境構築の手順
 
